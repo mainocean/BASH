@@ -1,0 +1,11 @@
+#!/bin/bash
+mkdir -p /home/TAA
+mkdir -p /home/TBB/
+mkdir -p /home/TDK/
+mkdir -p /home/TBB/GR1
+mkdir -p /home/TDK/GR2
+touch /home/TBB/GR1/Oleksandr.txt
+touch /home/TDK/GR2/Korchenko.txt
+echo �groupalex16@gmail.com� > Oleksandr.txt
+echo �2022 7/20/2022� > Korchenko.txt
+cp Oleksandr.txt Korchenko.txt /home
